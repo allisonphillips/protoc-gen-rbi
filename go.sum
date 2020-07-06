@@ -1,3 +1,5 @@
+github.com/coinbase/protoc-gen-rbi v0.0.9 h1:Pu8m/g7p2824LyxyMx1Blf01gUny2PVO48n4Qa2UvCs=
+github.com/coinbase/protoc-gen-rbi v0.0.9/go.mod h1:p5nfaiXaY6wGPsYHSYj7OkbkKA1CpB7T2LJJ4xsA7fQ=
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=

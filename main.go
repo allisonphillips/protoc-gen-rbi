@@ -6,7 +6,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/coinbase/protoc-gen-rbi/ruby_types"
+	"github.com/kirbycool/protoc-gen-rbi/ruby_types"
 
 	pgs "github.com/lyft/protoc-gen-star"
 	pgsgo "github.com/lyft/protoc-gen-star/lang/go"
@@ -130,7 +130,7 @@ class {{ rubyMessageType . }}
 {{ else if gt (len .Fields) 0 }}
   sig do
     params({{ $index := 0 }}{{ range .Fields }}{{ if gt $index 0 }},{{ end }}{{ $index = increment $index }}
-      {{ .Name }}: {{ rubyInitializerFieldType . }}{{ end }}
+      {{ .Name }}: T.nilable({{ rubyInitializerFieldType . }}){{ end }}
     ).void
   end
   def initialize({{ $index := 0 }}{{ range .Fields }}{{ if gt $index 0 }},{{ end }}{{ $index = increment $index }}

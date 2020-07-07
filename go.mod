@@ -1,4 +1,4 @@
-module github.com/kirbycool/protoc-gen-rbi
+module github.com/thanx/protoc-gen-rbi
 
 go 1.13
 

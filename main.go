@@ -6,7 +6,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/kirbycool/protoc-gen-rbi/ruby_types"
+	"github.com/thanx/protoc-gen-rbi/ruby_types"
 
 	pgs "github.com/lyft/protoc-gen-star"
 	pgsgo "github.com/lyft/protoc-gen-star/lang/go"
